@@ -3500,12 +3500,6 @@ else
 fi
 
 
-ac_fn_c_check_header_mongrel "$LINENO" "tcutil.h" "ac_cv_header_tcutil_h" "$ac_includes_default"
-if test "x$ac_cv_header_tcutil_h" = x""yes; then :
-  true
-else
-  as_fn_error "tcutil.h is required" "$LINENO" 5
-fi
 
 
 ac_fn_c_check_header_mongrel "$LINENO" "lua.h" "ac_cv_header_lua_h" "$ac_includes_default"
