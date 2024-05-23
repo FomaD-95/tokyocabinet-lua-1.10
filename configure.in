@@ -87,7 +87,6 @@ AC_CHECK_LIB(tokyocabinet, main)
 # Necessary headers
 AC_CHECK_HEADER(stdlib.h, true, AC_MSG_ERROR(stdlib.h is required))
 AC_CHECK_HEADER(stdint.h, true, AC_MSG_ERROR(stdint.h is required))
-AC_CHECK_HEADER(tcutil.h, true, AC_MSG_ERROR(tcutil.h is required))
 AC_CHECK_HEADER(lua.h, true, AC_MSG_ERROR(lua.h is required))
 
 # Checking the version of Tokyo Cabinet with pkg-config
