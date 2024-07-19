@@ -3484,30 +3484,7 @@ fi
 done
 
 
-ac_fn_c_check_header_mongrel "$LINENO" "stdlib.h" "ac_cv_header_stdlib_h" "$ac_includes_default"
-if test "x$ac_cv_header_stdlib_h" = x""yes; then :
-  true
-else
-  as_fn_error "stdlib.h is required" "$LINENO" 5
-fi
 
-
-ac_fn_c_check_header_mongrel "$LINENO" "stdint.h" "ac_cv_header_stdint_h" "$ac_includes_default"
-if test "x$ac_cv_header_stdint_h" = x""yes; then :
-  true
-else
-  as_fn_error "stdint.h is required" "$LINENO" 5
-fi
-
-
-
-
-ac_fn_c_check_header_mongrel "$LINENO" "lua.h" "ac_cv_header_lua_h" "$ac_includes_default"
-if test "x$ac_cv_header_lua_h" = x""yes; then :
-  true
-else
-  as_fn_error "lua.h is required" "$LINENO" 5
-fi
 
 
 
